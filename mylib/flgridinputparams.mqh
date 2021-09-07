@@ -11,8 +11,10 @@
 
 //--------------------user params----------------------------------
 
-input int StartTrade = 10;             //Start trade
-input bool RepaymentLossUpward = true; //Working off a loss upward
+input int StartTrade = 70;                //Start trade
+input bool RepaymentLossUpward = true;    //Working off a loss upward
+input string TradeKind = "BUY";           //Trade kind (BUY or SELL)
+
 
 //grid 1
 input double FirstLot1 = 0.1;             //First lot (grid 1)
