@@ -16,11 +16,12 @@ input bool RepaymentLossUpward = true;    //Working off a loss upward
 input string TradeKind = "BUY";           //Trade kind (BUY or SELL)
 
 
+//grid 1
 input double FirstLot1 = 0.1;             //First lot (grid 1)
 input double LotFactor1 = 1.1;            //Volume coefficient (grid 1)
 input double LotHedge1 = 0.5;               //Hedge volume (grid 1)
 input int CandleStep1 = 2;                //Candle step (grid 1)
-input int MinOrdersDistance1 = 15;        //Min orders distance (grid 1)
+input int MinOrdersDistance1 = 100;        //Min orders distance (grid 1)
 input int ProfitPoints1 = 50;             //Profit points (grid 1)
 
 //grid 2
@@ -28,7 +29,7 @@ input double FirstLot2 = 0.15;                //First lot (grid 2)
 input double LotFactor2 = 1.1;               //Volume coefficient (grid 2)
 input double LotHedge2 = 0.8;                //Hedge volume (grid 2)
 input int CandleStep2 = 2;                   //Candle step (grid 2)
-input int MinOrdersDistance2 = 15;           //Min orders distance (grid 2)
+input int MinOrdersDistance2 = 100;           //Min orders distance (grid 2)
 input int ProfitPoints2 = 50;                //Profit points (grid 2)
 input int HedgeProfitFactor2 = 5;             //Hedge profit coefficient,% (grid 2)
 
@@ -37,27 +38,18 @@ input double FirstLot3 = 0.2;                //First lot (grid 3)
 input double LotFactor3 = 1.1;               //Volume coefficient (grid 3)
 input double LotHedge3 = 1.5;                //Hedge volume (grid 3)
 input int CandleStep3 = 2;                   //Candle step (grid 3)
-input int MinOrdersDistance3 = 20;           //Min orders distance (grid 3)
+input int MinOrdersDistance3 = 100;           //Min orders distance (grid 3)
 input int ProfitPoints3 = 50;                //Profit points (grid 3)
 input int HedgeProfitFactor3 = 5;             //Hedge profit coefficient,% (grid 3)
 
 //grid 4
-input double FirstLot4 = 0.3;                //First lot (grid 4)
+input double FirstLot4 = 0;                //First lot (grid 4)
 input double LotFactor4 = 1.1;               //Volume coefficient (grid 4)
 input double LotHedge4 = 2;                //Hedge volume (grid 4)
 input int CandleStep4 = 3;                   //Candle step (grid 4)
-input int MinOrdersDistance4 = 20;           //Min orders distance (grid 4)
+input int MinOrdersDistance4 = 100;           //Min orders distance (grid 4)
 input int ProfitPoints4 = 50;                //Profit points (grid 4)
 input int HedgeProfitFactor4 = 5;             //Hedge profit coefficient,% (grid 4)
-
-//grid 5
-input double FirstLot5 = 0;                //First lot (grid 5)
-input double LotFactor5 = 1.1;               //Volume coefficient (grid 5)
-input double LotHedge5 = 2.5;                //Hedge volume (grid 5)
-input int CandleStep5 = 3;                   //Candle step (grid 5)
-input int MinOrdersDistance5 = 50;           //Min orders distance (grid 5)
-input int ProfitPoints5 = 10;                //Profit points (grid 5)
-input int HedgeProfitFactor5 = 5;             //Hedge profit coefficient,% (grid 5)
 
 
 /*
@@ -95,6 +87,7 @@ input int CandleStep4 = 3;                   //Candle step (grid 4)
 input int MinOrdersDistance4 = 50;           //Min orders distance (grid 4)
 input int ProfitPoints4 = 10;                //Profit points (grid 4)
 input int HedgeProfitFactor4 = 5;             //Hedge profit coefficient,% (grid 4)
+*/
 
 //grid 5
 input double FirstLot5 = 0.1;                //First lot (grid 5)
@@ -104,7 +97,6 @@ input int CandleStep5 = 3;                   //Candle step (grid 5)
 input int MinOrdersDistance5 = 50;           //Min orders distance (grid 5)
 input int ProfitPoints5 = 10;                //Profit points (grid 5)
 input int HedgeProfitFactor5 = 5;             //Hedge profit coefficient,% (grid 5)
-*/
 
 //grid 6
 input double FirstLot6 = 0.1;                //First lot (grid 6)
